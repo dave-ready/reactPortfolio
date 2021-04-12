@@ -1,10 +1,12 @@
 {
   "name": "reactPortfolio",
-  "homepage": "https://dave-ready.github.io/reactPortfolio/"
+  "homepage": "https://dave-ready.github.io/reactPortfolio/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npm run build && gh-pages -d build"
   },
