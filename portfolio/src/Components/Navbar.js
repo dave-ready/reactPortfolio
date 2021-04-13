@@ -7,13 +7,15 @@ import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@material-ui/
 const Navbar = () => {
     return (
         <Box component= "nav">
-           <AppBar>
+           <AppBar position="static" style={{background: "#222"}}>
                <Toolbar>
-                   <ArrowBack/>
+                   <IconButton>
+                   <ArrowBack style={{color: "red"}}/>
+                   </IconButton>
                </Toolbar>
            </AppBar>
         </Box>
     )
-}
+};
 
 export default Navbar;
