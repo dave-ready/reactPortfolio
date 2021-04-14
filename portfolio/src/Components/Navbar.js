@@ -21,7 +21,7 @@ import {
     ContactMail, 
     Apps,  
 } from '@material-ui/icons';
-import avatar from "../avatar.png";
+import avatar from "../Images/avatar.png";
 
 
 //CSS STYLES
