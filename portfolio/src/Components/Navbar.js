@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { makeStyles } from '@material-ui/core/styles';
-import MobilRightMenuSlider from '@material-ui/core/Drawer';
+import MobileRightMenuSlider from '@material-ui/core/Drawer';
 import { 
     AppBar,  
     Toolbar, 
@@ -74,7 +74,11 @@ const Navbar = () => {
 
     const sideList = slider => (
 
-        <Box className={classes.menuSliderContainer} component="div">
+        <Box 
+        className={classes.menuSliderContainer} 
+        component="div"
+        onClick={toggleSlider(slider, false)}
+        >
           <Avatar className={classes.avatar} src={avatar} alt="reactAvatar" />  
           <Divider />
           <List>
@@ -106,9 +110,12 @@ const Navbar = () => {
                    <Typography variant="h5" style={{ color: "tan" }}>
                       Portfolio
                    </Typography>
-                   <MobilRightMenuSlider anchor="right" open={state.right}>
+                   <MobileRightMenuSlider 
+                   anchor="right" 
+                   open={state.right}
+                   onClose={toggleSlider("right", false)}>
                      {sideList("right")}
-                   </MobilRightMenuSlider>
+                   </MobileRightMenuSlider>
                </Toolbar>
            </AppBar>
         </Box>
