@@ -4,6 +4,8 @@ import Header from './Header';
 import Particles from 'react-particles-js';
 import {makeStyles, mergeClasses} from "@material-ui/styles";
 
+
+//CSS STYLING
 const useStyles = makeStyles({
     particlesCanva: {
         position: "absolute"
