@@ -79,7 +79,7 @@ const Navbar = () => {
         component="div"
         onClick={toggleSlider(slider, false)}
         >
-          <Avatar className={classes.avatar} src={avatar} alt="reactAvatar" />  
+          <Avatar className={classes.avatar} src={avatar} alt="David T Ready" />  
           <Divider />
           <List>
               {menuItems.map((listItem, key)=>(
