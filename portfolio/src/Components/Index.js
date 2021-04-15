@@ -3,6 +3,8 @@ import Navbar from './Navbar';
 import Header from './Header';
 import Particles from 'react-particles-js';
 import {makeStyles, mergeClasses} from "@material-ui/styles";
+import Style from "./Index.css";
+import Background from "../Images/80sgrid3.png";
 
 
 //CSS STYLING
@@ -53,9 +55,9 @@ const Home = () => {
                     value: 1,
                     random: true,
                     anim: {
-                        enable: false,
-                        speed: 1,
-                        opacity_min: 0.1,
+                        enable:true,
+                        speed: 10,
+                        size_min: 0.1,
                         sync: true
 
                     }

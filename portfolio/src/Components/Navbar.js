@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import {Link} from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
 import { 
@@ -7,7 +8,7 @@ import {
     ListItem, 
     IconButton,
     ListItemIcon, 
-    ListItemText, 
+    ListItemText,
     Avatar, 
     Divider, 
     List, 
@@ -46,11 +47,13 @@ const useStyles = makeStyles(theme=>({
 const menuItems = [
     {
         listIcon: <Home/>,
-        listText: "Home"
+        listText: "Home",
+        listPath: "/"
     },
     {
         listIcon: <AssignmentInd/>,
-        listText: "Resume"
+        listText: "Resume",
+        listPath: "/resume"
     },
     {
         listIcon: <Apps/>,
@@ -82,15 +85,14 @@ const Navbar = () => {
           <Avatar className={classes.avatar} src={avatar} alt="David T Ready" />  
           <Divider />
           <List>
-              {menuItems.map((listItem, key)=>(
-
-                <ListItem button key={key}>
+              {menuItems.map((lsItem, key)=>(
+              <ListItem button key={key} component={Link} to={lsItem.listPath}>    
                 <ListItemIcon className={classes.listItem}>
-                   {listItem.listIcon}
+                   {lsItem.listIcon}
                 </ListItemIcon>
                 <ListItemText 
                   className={classes.listItem}
-                  primary={listItem.listText}
+                  primary={lsItem.listText}
                   />
               </ListItem>
             ))}
@@ -124,3 +126,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// line 89 => </ListItem>button key={key} component={Link} to={lsItem.listPath}>
