@@ -3,8 +3,8 @@ import Navbar from './Navbar';
 import Header from './Header';
 import Particles from 'react-particles-js';
 import {makeStyles, mergeClasses} from "@material-ui/styles";
-import Style from "./Index.css";
-import Background from "../Images/80sgrid3.png";
+import"./Index.css";
+//import Background from "../Images/80sgrid3.png";
 
 
 //CSS STYLING
@@ -12,7 +12,10 @@ const useStyles = makeStyles({
     particlesCanva: {
         position: "absolute",
         opacity: "0.4"
-    }
+    },
+    //body: {
+    //  background: "../Images/80sgrid3.png",
+   // }
 })
 
 const Home = () => {
