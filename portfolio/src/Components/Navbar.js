@@ -28,7 +28,7 @@ import avatar from "../Images/avatar.png";
 const useStyles = makeStyles(theme=>({
     menuSliderContainer: {
         width: 250,
-        background: "#511",
+        background: "#FFB300",
         height: "30rem"
     },
     avatar: {
@@ -38,7 +38,7 @@ const useStyles = makeStyles(theme=>({
         height: theme.spacing(13)
     },
     listItem: {
-        color: "tan",
+        color: "#291C8F",
     },
 }));
    
@@ -102,10 +102,10 @@ const Navbar = () => {
         <>
         
         <Box component="nav">
-           <AppBar position="static" style={{ background: "#222" }}>
+           <AppBar position="static" style={{ background: "#291C8F" }}>
                <Toolbar>
                    <IconButton onClick={toggleSlider("right", true)}>
-                   <ArrowBack style={{ color: "tomato" }} />
+                   <ArrowBack style={{ color: "FFB300" }} />
                    </IconButton>
                    <Typography variant="h5" style={{ color: "tan" }}>
                       Portfolio

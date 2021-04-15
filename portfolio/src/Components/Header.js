@@ -8,16 +8,18 @@ import avatar from "../Images/avatar.png";
 
 const useStyles = makeStyles(theme=> ({
     avatar: {
+        color:"#291C8F",
         width: theme.spacing(15),
         height: theme.spacing(15),
         margin: theme.spacing(15)
     },
     title: {
-        color:"neongreen"
+        color:"#291C8F",
+        marginBottom: "1rem"
     },
     subtitle: {
-        color: "purple",
-        marginBottom: "3rem",
+        color: "#02EE35",
+        marginBottom: "3rem"
     },
     typedContainer: {
         position: "absolute",

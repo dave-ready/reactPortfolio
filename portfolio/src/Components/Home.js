@@ -8,7 +8,8 @@ import {makeStyles, mergeClasses} from "@material-ui/styles";
 //CSS STYLING
 const useStyles = makeStyles({
     particlesCanva: {
-        position: "absolute"
+        position: "absolute",
+        opacity: "0.4"
     }
 })
 
