@@ -9,7 +9,7 @@ function App() {
   return (
     <>
   <CssBaseline />
-  <Route path="/" component={Home} />
+  <Route exact path="/" component={Home} />
   <Route path="/Resume" component={Resume} />
    </> 
   );

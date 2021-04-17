@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Box } from "@material-ui/core";
-//import Navbar from "./Navbar";
+import Navbar from "./Navbar";
 
 //const useStyles = makeStyles;
 const useStyles = makeStyles(theme=>({
@@ -93,22 +93,111 @@ const useStyles = makeStyles(theme=>({
     }
   },
   heading: {
-    
-  }
+    color: "tomato",
+    padding: "3rem 0",
+    textTransform: "uppercase"
+  },
+  subHeading: {
+    color: "white",
+    padding: "0",
+    textTransform: "uppercase"
+  },
 }));
 
 const Resume = () => {
   const classes = useStyles();
     return (
       <>
+      <Navbar />
       <Box component="header" className={classes.mainContainer}>
-        <Typography variant="h4" align="center">
+        <Typography variant="h4" align="center" className={classes.heading}>
       WORKING EXPERIENCE
       </Typography>
       <Box component="div" className={classes.timeLine}>
-        <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+        <Typography 
+          variant="h2" 
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
           2003
         </Typography>
+        <Box component="div"className={classes.timeLineItem} >
+          <Typography 
+          variant="h5" 
+          align="center" 
+          className={classes.subHeading}>
+            web design
+          </Typography>
+          <Typography 
+          variant="body1" 
+          align="center" 
+          style={{ color: "tomato" }}>
+            company name 
+          </Typography>
+          <Typography 
+          variant="subtitle1" 
+          align="center" 
+          style={{ color: "tan" }}>
+            Lorem consectetur occaecat cillum aliquip cupidatat in nisi occaecat deserunt et. 
+            Cupidatat Lorem est aliquip nisi aute minim nostrud ea. Est elit ad adipisicing tempor ut proident 
+            ut nostrud deserunt ex proident sit consequat ea. Consequat elit sit consequat in et nisi amet.
+          </Typography>
+        </Box>
+        <Typography 
+          variant="h2" 
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+          2014
+        </Typography>
+        <Box component="div" className={classes.timeLineItem} >
+          <Typography 
+          variant="h5" 
+          align="center" 
+          className={classes.subHeading}>
+            HTML & CSS
+          </Typography>
+          <Typography 
+          variant="body1" 
+          align="center" 
+          style={{ color: "tomato" }}>
+            company name 
+          </Typography>
+          <Typography 
+          variant="subtitle1" 
+          align="center" 
+          style={{ color: "tan" }}>
+            Lorem consectetur occaecat cillum aliquip cupidatat in nisi occaecat deserunt et. 
+            Cupidatat Lorem est aliquip nisi aute minim nostrud ea. Est elit ad adipisicing tempor ut proident 
+            ut nostrud deserunt ex proident sit consequat ea. Consequat elit sit consequat in et nisi amet.
+          </Typography>
+        </Box>
+        <Typography 
+          variant="h2" 
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+          2017
+        </Typography>
+        <Box component="div"className={classes.timeLineItem} >
+          <Typography 
+          variant="h5" 
+          align="center" 
+          className={classes.subHeading}>
+           Javascript
+          </Typography>
+          <Typography 
+          variant="body1" 
+          align="center" 
+          style={{ color: "tomato" }}>
+            company name 
+          </Typography>
+          <Typography 
+          variant="subtitle1" 
+          align="center" 
+          style={{ color: "tan" }}>
+            Lorem consectetur occaecat cillum aliquip cupidatat in nisi occaecat deserunt et. 
+            Cupidatat Lorem est aliquip nisi aute minim nostrud ea. Est elit ad adipisicing tempor ut proident 
+            ut nostrud deserunt ex proident sit consequat ea. Consequat elit sit consequat in et nisi amet.
+          </Typography>
+        </Box>
       </Box>
       </Box>
       </>
