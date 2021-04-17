@@ -1,8 +1,9 @@
 import React from 'react';
-import {makeStyles} from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Avatar, Grid, Box } from '@material-ui/core';
 import Typed from "react-typed";
 import avatar from "../Images/avatar.png";
+
 
 //CSS Styling
 
@@ -33,7 +34,7 @@ const useStyles = makeStyles(theme=> ({
 }));
 
 const Header = () => {
-    const classes = useStyles()
+    const classes = useStyles();
     return (
         <Box className={classes.typedContainer}>
             <Grid container justify="center">
