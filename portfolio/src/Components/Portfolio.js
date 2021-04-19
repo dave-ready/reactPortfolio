@@ -57,19 +57,34 @@ const Portfolio = () => {
                     </CardActionArea>
                      <CardContent className={classes.cardContent}>
                          <Typography gutterBottom variant="h5" align="center">
-                             The Dadabase
+                             From Dad to Bad
                          </Typography>
                          <Typography variant="body2" color="textSecondary" component="p">
-                             Et adipisicing elit deserunt deserunt ea quis adipisicing tempor commodo. 
+                         From Dad to Bad is your one stop shop for all things dad jokes, puns, 
+                         and movie one liners. Whether it elicits laughter, tears, groaning, 
+                         or a mixture of all three, From Dad to Bad has it all!
                          </Typography>
                      </CardContent>
                      <CardActions className={classes.cardContent}>
-                         <Button size="small" color="primary" backgroundColor="#69f0ae">
-                             View App
-                         </Button>
-                         <Button size="small" color="primary">
-                             Github Repo
-                         </Button>
+                     <a href={"https://aqueous-meadow-09339.herokuapp.com"} 
+                         target="_blank"
+                         rel="noreferrer">
+                        <Button
+                         size="small" 
+                         color="#69f0ae"
+                         label="View App"
+                         >View App</Button>
+                        </a>
+
+                        <a href={"https://github.com/puentebravo/project2"} 
+                         target="_blank"
+                         rel="noreferrer">
+                        <Button
+                         size="small" 
+                         color="#69f0ae"
+                         label="View App"
+                         >Github Repo</Button>
+                        </a>
                      </CardActions>
              </Card>
 
@@ -87,16 +102,34 @@ const Portfolio = () => {
                             Weather Dashboard
                          </Typography>
                          <Typography variant="body2" color="textSecondary" component="p">
-                             Et adipisicing elit deserunt deserunt ea quis adipisicing tempor commodo. 
+                         a weather dashboard app with search functionality to find any given city's 
+                         current weather conditions as well as it's projected five-day forecast. 
+                         The app uses AJAX to retrieve city data from OpenWeather API and includes 
+                         dynamically updated HTML and CSS powered by jQuery. It also displays a 
+                         search history which the user can click to access past city searches via 
+                         local storage.
                          </Typography>
                      </CardContent>
                      <CardActions className={classes.cardContent}>
-                         <Button size="small" color="#69f0ae">
-                             View App
-                         </Button>
-                         <Button size="small" color="primary">
-                             Github Repo
-                         </Button>
+                     <a href={"https://dave-ready.github.io/weather_dashboard/"} 
+                         target="_blank"
+                         rel="noreferrer">
+                        <Button
+                         size="small" 
+                         color="#69f0ae"
+                         label="View App"
+                         >View App</Button>
+                        </a>
+
+                        <a href={"https://github.com/dave-ready/weather_dashboard"} 
+                         target="_blank"
+                         rel="noreferrer">
+                        <Button
+                         size="small" 
+                         color="#69f0ae"
+                         label="View App"
+                         >Github Repo</Button>
+                        </a>
                      </CardActions>
              </Card>
 
@@ -114,16 +147,32 @@ const Portfolio = () => {
                              Workday Scheduler
                          </Typography>
                          <Typography variant="body2" color="textSecondary" component="p">
-                             Et adipisicing elit deserunt deserunt ea quis adipisicing tempor commodo. 
+                         This is a simple calendar application that allows a user to save 
+                         events for each hour of the  standard workday(9am - 5pm). This app 
+                         runs in the browser and features dynamically updated HTML and CSS 
+                         powered by jQuery.
                          </Typography>
                      </CardContent>
                      <CardActions className={classes.cardContent}>
-                         <Button size="small" color="#69f0ae">
-                             View App
-                         </Button>
-                         <Button size="small" color="primary">
-                             Github Repo
-                         </Button>
+                     <a href={"https://dave-ready.github.io/dayScheduler/"} 
+                         target="_blank"
+                         rel="noreferrer">
+                        <Button
+                         size="small" 
+                         color="#69f0ae"
+                         label="View App"
+                         >View App</Button>
+                        </a>
+
+                        <a href={"https://github.com/dave-ready/dayScheduler"} 
+                         target="_blank"
+                         rel="noreferrer">
+                        <Button
+                         size="small" 
+                         color="#69f0ae"
+                         label="View App"
+                         >Github Repo</Button>
+                        </a>
                      </CardActions>
              </Card>
 
@@ -138,7 +187,7 @@ const Portfolio = () => {
                       </CardActionArea>
                      <CardContent className={classes.cardContent}>
                          <Typography gutterBottom variant="h5" align="center">
-                             Project 4
+                             Farmwise Fresh Eats
                          </Typography>
                          <Typography variant="body2" color="textSecondary" component="p">
                              Et adipisicing elit deserunt deserunt ea quis adipisicing tempor commodo. 
@@ -146,7 +195,7 @@ const Portfolio = () => {
                      </CardContent>
 
                      <CardActions className={classes.cardContent}>
-                     <a href={"https://aqueous-meadow-09339.herokuapp.com"} 
+                     <a href={"https://ericfreyer.github.io/Farmwise_FreshEats/"} 
                          target="_blank"
                          rel="noreferrer">
                         <Button
@@ -156,7 +205,7 @@ const Portfolio = () => {
                          >View App</Button>
                         </a>
 
-                        <a href={"https://github.com/puentebravo/project2"} 
+                        <a href={"https://github.com/ericfreyer/Farmwise_FreshEats"} 
                          target="_blank"
                          rel="noreferrer">
                         <Button
