@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Footer from './Footer';
 import {makeStyles} from "@material-ui/core/styles";
 import {
     Box,
@@ -16,6 +17,7 @@ import Project1 from "../Images/theDadabase.png";
 import Project2 from "../Images/weatherDashboard.png";
 import Project3 from "../Images/workDayScheduler.png";
 import Project4 from "../Images/theDadabase.png";
+
 
 
 const useStyles = makeStyles({
@@ -142,19 +144,43 @@ const Portfolio = () => {
                              Et adipisicing elit deserunt deserunt ea quis adipisicing tempor commodo. 
                          </Typography>
                      </CardContent>
+
                      <CardActions className={classes.cardContent}>
-                         <Button size="small" color="#69f0ae">
-                             View App
-                         </Button>
-                         <Button size="small" color="primary">
-                             Github Repo
-                         </Button>
-                     </CardActions>
+                     <a href={"https://aqueous-meadow-09339.herokuapp.com"} 
+                         target="_blank"
+                         rel="noreferrer">
+                        <Button
+                         size="small" 
+                         color="#69f0ae"
+                         label="View App"
+                         >View App</Button>
+                        </a>
+
+                        <a href={"https://github.com/puentebravo/project2"} 
+                         target="_blank"
+                         rel="noreferrer">
+                        <Button
+                         size="small" 
+                         color="#69f0ae"
+                         label="View App"
+                         >Github Repo</Button>
+                        </a>
+                        </CardActions>
              </Card>
            </Grid>
          </Grid>
+         <Footer />
        </Box>
     );
 };
 
 export default Portfolio
+
+                //     <CardActions className={classes.cardContent}>
+                //         <Button size="small" color="#69f0ae">
+                //             View App
+                //         </Button>
+                //         <Button size="small" color="primary">
+                //             Github Repo
+                //         </Button>
+                //    </CardActions>
