@@ -1,5 +1,5 @@
 import React from "react";
-import {Route} from 'react-router-dom';
+import { BrowserRouter as Route } from "react-router-dom"; 
 import CssBaseline from '@material-ui/core/CssBaseline';
 import "./App.css";
 import Home from './Components/Index';

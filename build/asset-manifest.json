@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio/static/css/main.06f4ccde.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.686f167f.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.686f167f.chunk.js.map",
+    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.c8702d01.js",
+    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.c8702d01.js.map",
+    "static/js/2.ec265e6f.chunk.js": "/reactPortfolio/static/js/2.ec265e6f.chunk.js",
+    "static/js/2.ec265e6f.chunk.js.map": "/reactPortfolio/static/js/2.ec265e6f.chunk.js.map",
+    "index.html": "/reactPortfolio/index.html",
+    "static/css/main.06f4ccde.chunk.css.map": "/reactPortfolio/static/css/main.06f4ccde.chunk.css.map",
+    "static/js/2.ec265e6f.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.ec265e6f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/reactPortfolio/static/media/80sgrid3.a7102ab5.png",
+    "static/media/theDadabase.b2d4001e.png": "/reactPortfolio/static/media/theDadabase.b2d4001e.png",
+    "static/media/weatherDashboard.bf333094.png": "/reactPortfolio/static/media/weatherDashboard.bf333094.png",
+    "static/media/workDayScheduler.5bf60979.png": "/reactPortfolio/static/media/workDayScheduler.5bf60979.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8702d01.js",
+    "static/js/2.ec265e6f.chunk.js",
+    "static/css/main.06f4ccde.chunk.css",
+    "static/js/main.686f167f.chunk.js"
+  ]
+}

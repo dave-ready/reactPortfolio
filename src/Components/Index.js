@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Header from './Header';
 //import Paper from 'material-ui/Paper';
 import Particles from 'react-particles-js';
+//import { Box } from '@material-ui/core';
 import { makeStyles } from "@material-ui/core/styles";
 //import"./Index.css";
 //import Image from '../Images/80sgrid3.png';
@@ -81,7 +82,8 @@ const Home = () => {
             }}
 
           />
-        </>
+          </>
+        
       )
     };
 
