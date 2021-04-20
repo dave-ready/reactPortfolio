@@ -22,7 +22,8 @@ import Project4 from "../Images/theDadabase.png";
 
 const useStyles = makeStyles({
     mainContainer: {
-      background: "#004d40",
+      background: "#233",
+      //background: "#004d40",
       height: "100%",  
     },
     cardContent: {
@@ -37,7 +38,7 @@ const useStyles = makeStyles({
     },
 })
 
-const Portfolio = () => {
+const Project = () => {
     const classes = useStyles();
     return (
         <Box component="div" className={classes.mainContainer}>
@@ -57,7 +58,7 @@ const Portfolio = () => {
                     </CardActionArea>
                      <CardContent className={classes.cardContent}>
                          <Typography gutterBottom variant="h5" align="center">
-                             From Dad to Bad
+                             The Dadabase
                          </Typography>
                          <Typography variant="body2" color="textSecondary" component="p">
                          From Dad to Bad is your one stop shop for all things dad jokes, puns, 
@@ -223,7 +224,7 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio
+export default Project
 
                 //     <CardActions className={classes.cardContent}>
                 //         <Button size="small" color="#69f0ae">

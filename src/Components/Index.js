@@ -88,21 +88,6 @@ const Home = () => {
 export default Home
 
 
-//<Paper style={classes.paperContainer}>
-        // Some text to fill the Paper Component
-        //</Paper>  
-
-
-        
-//export default class Home extends React.Component{
-//  render(){
-//      return(
-//          <Paper style={styles.paperContainer}>
-//              Some text to fill the Paper Component
-//          </Paper>
-//      )
-//  }
-//}
 
 
 

@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { makeStyles } from "@material-ui/core/styles";
@@ -208,3 +208,4 @@ const Resume = () => {
 
 export default Resume
 
+*/

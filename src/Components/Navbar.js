@@ -18,7 +18,7 @@ import {
 } from '@material-ui/core';
 import { 
     ArrowBack, 
-    AssignmentInd, 
+    //AssignmentInd, 
     Home,
     ContactMail, 
     Apps,  
@@ -51,15 +51,15 @@ const menuItems = [
         listText: "Home",
         listPath: "/"
     },
-    {
+    /*{
         listIcon: <AssignmentInd/>,
         listText: "Resume",
         listPath: "/resume"
-    },
+    },*/
     {
         listIcon: <Apps/>,
-        listText: "Portfolio",
-        listPath: "/portfolio",
+        listText: "Project",
+        listPath: "/Project",
     },
     {
         listIcon: <ContactMail/>,
