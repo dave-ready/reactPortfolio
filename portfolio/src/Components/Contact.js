@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import { TextField, Typography, Grid, Box, Button } from "@material-ui/core";
 import SendIcon from '@material-ui/icons/Send';
-import Navbar from './Navbar';
-import Footer from './Footer';
+
 
 
 
@@ -49,6 +50,7 @@ const Contact = () => {
 const classes = useStyles();   
 
     return (
+        <>
         <Box component="div" style={{ background: "#233", height: "100vh"}}>
         <Navbar />
             <Grid container justify="center">
@@ -93,8 +95,10 @@ const classes = useStyles();
             </Button>
             </Box>
             </Grid>
-            <Footer />
         </Box>
+        <Footer />
+        </>
+        
     )   
 };
 
