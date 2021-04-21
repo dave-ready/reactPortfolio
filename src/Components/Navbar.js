@@ -49,7 +49,7 @@ const menuItems = [
     {
         listIcon: <Home/>,
         listText: "Home",
-        listPath: "/reactPortfolio"
+        listPath: "/"
     },
     /*{
         listIcon: <AssignmentInd/>,
@@ -59,7 +59,7 @@ const menuItems = [
     {
         listIcon: <Apps/>,
         listText: "Project",
-        listPath: "/project",
+        listPath: "/project"
     },
     {
         listIcon: <ContactMail/>,
