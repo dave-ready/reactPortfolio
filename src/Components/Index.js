@@ -1,32 +1,19 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Header from './Header';
-//import Paper from 'material-ui/Paper';
 import Particles from 'react-particles-js';
-//import { Box } from '@material-ui/core';
 import { makeStyles } from "@material-ui/core/styles";
-//import"./Index.css";
-//import Image from '../Images/80sgrid3.png';
-//import Background from "../Images/80sgrid3.png";
 
 
 //CSS STYLING
 const useStyles = makeStyles({
-  //paperContainer: {
-  //  backgroundImage: `url(${Image})`,
-//},
+  
     particlesCanva: {
         position: "absolute",
         opacity: "0.3"
     }
-    //body: {
-    //  background: "../Images/80sgrid3.png",
-   // }
+   
 });
-
-
-
-
 
 const Home = () => {
     const classes = useStyles();
@@ -36,10 +23,9 @@ const Home = () => {
         <Navbar />
         <Header />
         <Particles
+        
         canvasClassName={classes.particlesCanva}
-
           params={{
-
             particles: {
                 number: {
                     value: 45,
