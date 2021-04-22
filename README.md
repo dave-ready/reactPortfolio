@@ -1,3 +1,3 @@
 # reactPortfolio
 
-https://dave-ready.github.io/reactPortfolio/
+https://dave-ready.github.io/
