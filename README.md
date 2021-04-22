@@ -4,7 +4,7 @@
 
 
 
-  # **A-ONE EMPLOYEE DIRECTORY**
+  # **MY REACT PORTFOLIO**
 
 
   ## Table of Contents
@@ -15,27 +15,23 @@
   - [Deployed App](#deployedApp)
 
   ## Description
-  For this assignment, I created an Employee Directory using React
+  I made a new portfolio using React!
 
   ## User Story
-  As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+  Used for networking and finding a job
 
   ## Technologies
-  Javascript, CSS, React, ESlint, Axios
+  React, Material-UI, React-Router
 
   ## Installation
   npm install
 
   ## Deployed App
-  https://dave-ready.github.io/A-OneEmployeeDirectory/
-
-  ## Github Repository
-  https://github.com/dave-ready/A-OneEmployeeDirectory
-
+  https://dave-ready.github.io/
   
 
   ## Contact
-  - Github Username: https://github.com/dave-ready
-  - E-mail: davis_ready@hotmail.com
-
+  - Github Repository: https://github.com/dave-ready/reactPortfolio
+  - E-mail: Davis_ready@hotmail.com
+  
  https://dave-ready.github.io/
